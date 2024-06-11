@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Profiles</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="profile-container">
+    <h1>User Profile</h1>
+    <div id="userData"></div>
+  </div>
+  <div class="orders-container">
+    <h2>User Orders</h2>
+    <ul id="userOrders"></ul>
+  </div>
+  <table id="usersTable">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Avatar</th>
+        <th>Gender</th>
+        <th>Login</th>
+        <th>Password</th>
+        <th>Address</th>
+      </tr>
+    </thead>
+    <tbody id="usersTableBody"></tbody>
+  </table>
+  <script src="Exercice1.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Profiles</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">User Profile</h5>
+            <div id="userData"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">User Orders</h5>
+            <ul id="userOrders" class="list-group"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col">
+        <h2>User Table</h2>
+        <table id="usersTable" class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Avatar</th>
+              <th>Gender</th>
+              <th>Login</th>
+              <th>Password</th>
+              <th>Address</th>
+            </tr>
+          </thead>
+          <tbody id="usersTableBody"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="Exercice1.js"></script>
+</body>
+</html>

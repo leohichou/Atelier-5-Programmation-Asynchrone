@@ -1,0 +1,26 @@
+.profile-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .profile-container h1{
+    text-align: center;
+    background-color: aliceblue;
+  }
+  .profile-container div {
+    background-color: aliceblue;
+  }
+  
+  .profile-info {
+    margin-bottom: 10px;
+  }
+  
+  .profile-info label {
+    font-weight: bold;
+  }
+  
+  .profile-info span {
+    margin-left: 5px;
+  }
+  
